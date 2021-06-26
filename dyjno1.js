@@ -7,12 +7,12 @@
 =================================Quantumultx=========================
 [task_local]
 #省钱大赢家
-30 7 * 6 * https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js, tag=省钱大赢家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+30 0 * 0 * https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js, tag=省钱大赢家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 =================================Loon===================================
 [Script]
-cron "30 7 * 6 *" script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js,tag=省钱大赢家
+cron "30 0 * 0 *" script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js,tag=省钱大赢家
 ===================================Surge================================
-省钱大赢家 = type=cron,cronexp="30 7 * 6 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js
+省钱大赢家 = type=cron,cronexp="30 0 * 0 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js
 ====================================小火箭=============================
 省钱大赢家 = type=cron,script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_sqdyj.js, cronexpr="30 7 * 6 *", timeout=3600, enable=true
  */
